@@ -1,0 +1,45 @@
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner{
+width: 1128px;
+margin: 0 auto;
+}
+
+.gallery {
+    padding-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.gallery img {
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.modal{
+    width: 1112px;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.dev{
+width: 1112px;
+    height: 640px;
+    margin: 0 auto;
+}
